@@ -1,0 +1,20 @@
+#wrapper {width:1024px; padding-bottom:2px; margin:0px auto;}
+#containers {position:relative; background-color:; background-repeat:no-repeat;
+/*background:#ccc;*/ padding:0.5px; height:318px; /*border-right:1px solid #ccc; border-bottom:1px solid #ccc*/}
+.sliderbutton {float:left; width:0px; height:0px; cursor:pointer}
+/*#slideleft {background:url(../images/icons.gif) -50px -265px no-repeat}*/
+/*#slideleft:hover {background-position:-0 -265px}*/
+/*#slideright {background:url(../images/icons.gif) 0 90px no-repeat}*/
+/*#slideright:hover {background-position:-50px 90px}*/
+#slider {float:left; position:relative; overflow:auto; width:1024px; height:318px}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:1024px; height:318px}
+.pagination {
+	position:absolute;
+	top:36px;
+	right:135px;
+	list-style:none;
+	height:25px;
+}
+.pagination li {float:left; cursor:pointer; height:8px; width:8px; background:#404040 /*#FF7500*/; margin:0 4px 0 0; border:1px solid #fff}
+.pagination li:hover, li.current {background:#669DFF}

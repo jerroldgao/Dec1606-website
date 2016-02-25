@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<title>DEC1606</title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" type="text/css" href="css/cssStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="css/script.js"></script> <!-- slide show javascript-->
+	</head>
+
+	<body>
+		
+		<header> <div id = "header_p">DEC1606</div> 
+				<div id="menu">
+					<div id = "navMenu">
+						
+					<ul>
+						<li><a href ="members.html">Team</a></li>
+					</ul>	
+						
+					<ul>
+						<li><a href ="reports.html">Weekly Reports</a></li>
+					</ul>
+					
+					<ul>
+						<li><a href ="document.html">Documents</a></li>
+					</ul>
+					
+					<ul>
+						<li><a href ="index.html">Home</a></li>
+					</ul>
+				</div>
+		</header>
+			
+	
+		<div id = "container">
+		
+			<!-- main page slide page-->
+			<div id="wrapper">
+					<div id="containers">
+						<div class="sliderbutton" id="slideleft" onclick="slideshow.move(-1)"></div>
+						<div id="slider">
+							<ul>
+								<li><img src="images/image1.png" width="1024" height="318" alt="Image One" /></li>
+								<li><img src="images/image1.png" width="1024" height="318" alt="Image One" /></li>
+								<li><img src="images/image1.png" width="1024" height="318" alt="Image One" /></li>
+								<li><img src="images/image1.png" width="1024" height="318" alt="Image One" /></li>
+							</ul>
+						</div>
+						<div class="sliderbutton" id="slideright" onclick="slideshow.move(1)"></div>
+						<ul id="pagination" class="pagination">
+							<li onclick="slideshow.pos(0)"></li>
+							<li onclick="slideshow.pos(1)"></li>
+							<li onclick="slideshow.pos(2)"></li>
+							<li onclick="slideshow.pos(3)"></li>
+						</ul>
+					</div>
+			</div>	
+
+			<!-- vertical paragraph-->
+			<div id = "center"> <div class = "title">Goal</div> <p class = "paragraph">To develop a speech device that can be used by children, adolescents, or adults, with autism to help communicate with their caretakers, family, etc. if they are non-verbal. With the aid of Micron memory a device can be created to give these children, adolescents, or adults the ability to communicate their needs, in turn, providing them a voice of their own. </p> </div>
+			
+			<div id = "left"> <div class = "title">Design</div> <p class = "paragraph">Budget friendly user interface prototype that verbally communicates needs and wants of the user. Be able to adapt and personalize the device for different maturity levels and age groups.Custom touch screen device that incorporates Micron Memory. </p></div>
+			<div id = "right"> <div class = "title">Technical Approach</div> <p class = "paragraph">There are currently devices in the market that individuals can use, but due to lack of versatility and a high price tag they aren’t commonly sought after. By developing a budget friendly and personalized device, this can help autistic individuals gain confidence and a sense of independence. Lowest budget possible (Final production cost no more than $200), not harmful, durable, battery operated, aesthetically pleasing, customizable. </p></div>
+			
+		</div>		
+			
+		</div>	
+		
+			<footer>
+				Copyright &copy; 2016 Senior Design Team DEC1606</br>
+			</footer>
+	
+
+	
+	<script type="text/javascript">
+	//slide show display
+		var slideshow=new TINY.slider.slide('slideshow',{
+			id:'slider',
+			auto:4,
+			resume:false,
+			vertical:false,
+			navid:'pagination',
+			activeclass:'current',
+			position:0,
+			rewind:false,
+			elastic:true,
+			left:'slideleft',
+			right:'slideright'
+		});
+	</script>	
+	
+	</body>
+
+</html>
